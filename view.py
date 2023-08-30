@@ -1,5 +1,6 @@
 import text
 
+
 def menu():
     for i, item in enumerate(text.main_menu):
         if i == 0:

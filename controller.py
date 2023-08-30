@@ -2,6 +2,7 @@ import view
 import text
 import model
 
+
 def search_block(msg: str):
     request = view.input_request(msg)
     result = model.search(request)
