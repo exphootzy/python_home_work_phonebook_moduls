@@ -38,6 +38,7 @@ input_del_id = 'Введите ID удаляемого контакта: '
 
 contact_operation = ['сохранен', 'изменен','удален']
 
+
 def contact_save_successful(name: str, operation):
     return f'Контакт {name} успешно {operation}!'
 
